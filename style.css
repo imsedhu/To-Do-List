@@ -5,7 +5,12 @@
       box-sizing: border-box;
       font-family: 'Poppins', sans-serif;
     }
-    .container {
+
+    body {
+      background-color: #E4F1FF;
+      color: #AED2FF;
+    }
+    /* .container {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -26,12 +31,8 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 100vh;
     }
-    body {
-      background-color: #E4F1FF;
-      color: #AED2FF;
-    }
+
     #btn {
       border: none;
       margin: 5px;
@@ -40,12 +41,13 @@
       background-color: #AED2FF;
       cursor: pointer;
       color: #27005D;
-    }
+    } */
    /*  #todo {
       padding: 3px 15px;
     } */
-    .btn-input {
+    /* .btn-input {
       display: flex;
+      flex-direction: row;
       justify-content: center;
       align-items: center;
       margin-bottom: 10px;
@@ -64,4 +66,75 @@
     }
     #todo-list p {
       margin-bottom: 3px;
-    }
+    }  */
+
+
+    /* .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 400px;
+      width: 200px;
+      background-color: #27005D;
+    } */
+
+    .container h2{
+      display:flex;
+      justify-content: center;
+      
+  }
+  
+  h2{
+      color:#ffeba7;
+      letter-spacing: 1px;
+  }
+  input{
+      border-radius: 5px;
+      border: 2px solid black ;
+      margin-top:30px;
+      height:2.5em;
+      width:200px;
+      padding-left:10px;
+  }
+  
+  input:active{
+      border:none;
+  }
+  .container{
+      height:500px;
+      width:400px;
+      margin:20px auto;
+      background-color:#1f2029;
+      border-radius:10px;
+      padding:30px;
+  }
+  
+  button{
+      margin-top:20px;
+      background-color:#ffeba7;
+      border-radius: 4px;
+      font-weight: 600;
+      padding: 5px 30px;
+      letter-spacing: 1px;
+      border: none;
+      color: #102770;
+  }
+  
+  button:hover{
+      cursor:pointer;
+  }
+  #todolList{
+      color:white;
+      font-size:28px;  
+      margin-top:10px; 
+  }
+  
+  #todo-list p{
+    margin:10px 0px;
+  }
+  
+  #todo-list p:hover{
+    cursor: pointer;
+  }
+
